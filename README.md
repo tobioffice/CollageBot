@@ -4,10 +4,22 @@ A Telegram bot built with Pyrogram to help manage college-related tasks such as 
 
 ## Features
 
+- Automated Attendance Checking System
+- AI-Powered Responses using Google's Gemini Model
 - Student Registration System
-- Attendance Tracking
-- Greeting Messages
 - Admin Notifications
+
+## Key Functionalities
+
+### Attendance Checking
+- Check attendance status using roll number
+- Real-time attendance updates
+
+### AI Integration
+- Powered by Google's Gemini AI model
+- Natural language understanding
+- Intelligent responses to queries
+- Enhanced user interaction
 
 ## Prerequisites
 
