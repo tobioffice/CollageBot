@@ -1,4 +1,6 @@
-# CollageBot - Telegram Bot for College Management
+# NBKRIST ATTENDENCE Bot
+
+Try the bot at: [@nbkrist_attendence](https://t.me/nbkrist_attendence)
 
 A Telegram bot built with Pyrogram to help manage college-related tasks such as student registration, attendance tracking, and general communications.
 
