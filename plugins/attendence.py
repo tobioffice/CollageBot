@@ -2,6 +2,9 @@ from pyrogram import Client, filters, enums
 from plugins.utils_att import get_data
 import requests
 from plugins.db_connection import is_student_registered
+from os import getenv
+
+BOT_TOKEN = getenv('BOT_TOKEN')
 private_access: list = ['5850533417', ]
 admin_id: str = '5850533417'
 
@@ -145,7 +148,7 @@ async def add_pvt(Client: Client, message: str) -> None:
                     parse_mode=enums.ParseMode.HTML
                 )
                 requests.get(
-                    f"https://api.telegram.org/bot6991340464:AAEY05fO5PN1jM8RjF7oyLhstphv87ROG0E/sendMessage?chat_id=5850533417&text={str(private_access)}")
+                    f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage?chat_id=5850533417&text={str(private_access)}")
 
     except:
         await message.reply_text("ERROR !")
